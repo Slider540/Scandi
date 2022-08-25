@@ -1,192 +1,238 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap">
-  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-  <link rel="manifest" href="icon/site.webmanifest">
-  <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/outlines.css"> -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Студия дизайна Scandi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Scandi</title>
 </head>
 
 <body>
-  <header class="main-header container">
-    <nav class="main-header-nav">
-      <a class="site-logo">
-        <img src="img/logo.svg" alt="Новости культуры">Scandi
-      </a>
-      <ul class="site-navigation">
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">О компании</a>
-        </li>
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">Портфолио</a>
-        </li>
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">Команда</a>
-        </li>
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">Как мы работаем</a>
-        </li>
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">Отзывы клиентов</a>
-        </li>
-        <li class="site-navigation-item">
-          <a class="site-navigation-link" href="#">Оставить заявку</a>
-        </li>
-      </ul>
-      <a class="tel-number">+7&nbsp(981)&nbsp857-46-24</a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <h1 class="visually-hidden">Студия дизайна Scandi</h1>
-
-    <section class="headline">
-      <h2>Поможем сделать вашу квартиру уютнее</h2>
-      <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер,
-        находим магазины и помогаем организовать доставку</p>
-      <a class="request" href="#">Оставить заявку</a>
-    </section>
-
-    <section class="about-us">
-      <h2 class="about-us-title">О нас</h2>
-      <div class="about-us-wrapper container">
-        <img src="img/table.jpg" alt="Сервировка стола">
-        <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
-          Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,
-          что по-настоящему вдохновляет дизайнеров нашей студии.</p>
-        <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
-          « Да! Это именно то, что действительно достойно моего дома!»</p>
-      </div>
-      <ul class="about-us-list">
-        <li class="about-us-item">5 лет опыта</li>
-        <li class="about-us-item">100 проектов</li>
-        <li class="about-us-item">10 наград</li>
-      </ul>
-    </section>
-
-    <section class="our-works">
-      <h2 class="our-works-title">Наши работы</h2>
-      <div class="our-works-gallery">
-        <div class="our-works-gallery-item">
-          <img src="img/bedroom.jpg">
-          <div class="our-works-gallery-item-hover">
-            <h3>Квартира-студия 30 кв.м.</h3>
-            <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
-              на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
-          </div>
+    <header class="page-header">
+        <div class="wide-container">
+            <a class="site-logo" href="#">
+                <img src="img/logo.svg" width="25px" height="25px" alt="Логотип студии дизайна Scandi - торшер">Scandi
+            </a>
+            <nav>
+                <ul class="site-nav">
+                    <li class="site-nav-item"><a class="site-nav-link" href="#about">О компании</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="#portfolio">Портфолио</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="#team">Команда</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="#process">Как мы работаем</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="#reviews">Отзывы клиентов</a></li>
+                    <li class="site-nav-item"><a class="site-nav-link" href="#form">Оставить заявку</a></li>
+                </ul>
+            </nav>
+            <a class="tel-number" href="tel:+79818574624">+7&nbsp;(981)&nbsp;857-46-24</a>
         </div>
-        <div class="our-works-gallery-item">
-          <img src="img/kitchen.jpg">
-          <div class="our-works-gallery-item-hover">
-            <h3>Двухэтажная квартира 80 кв.м.</h3>
-            <p>Описание квартиры.</p>
-          </div>
+    </header>
+
+    <main>
+        <section class="headline">
+            <div class="container">
+                <div class="headline-text">
+                    <h1 class="headline-title">Поможем сделать вашу квартиру уютнее</h1>
+                    <p class="headline-description">Подбираем текстиль, мебель и аксессуары
+                        под&nbsp;ваш&nbsp;интерьер, находим магазины
+                        <br> и помогаем организовать доставку
+                    </p>
+                    <a class="button headline-button" href="#form">Оставить заявку</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">О нас</h2>
+                <div class="half-wrap">
+                    <img src="img/table.jpg" width="445px" height="465px" alt="Сервировка стола">
+                    <div class="text-wrap">
+                        <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
+                            Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим
+                            деталям
+                            —
+                            вот то,
+                            что по-настоящему вдохновляет дизайнеров нашей студии.</p><br>
+                        <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:<br>
+                            «Да! Это именно то, что действительно достойно моего дома!»</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <h2 class="visually-hidden">Наши преимущества</h2>
+            <div class="container">
+                <ul class="advantages-list">
+                    <li class="advantages-list-item">
+                        <p><span>5</span>лет опыта</p>
+                    </li>
+                    <li class="advantages-list-item">
+                        <p><span>100</span>проектов</p>
+                    </li>
+                    <li class="advantages-list-item">
+                        <p><span>10</span>наград</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="works" id="portfolio">
+            <div class="wide-container">
+                <h2 class="section-title">Наши работы</h2>
+                <div class="works-gallery">
+                    <article class="works-gallery-item">
+                        <img src="img/bedroom.jpg" class="works-img" width="488px" height="451px" alt="Спальня">
+                        <div class="works-gallery-item-hover">
+                            <h3 class="works-title">Квартира-студия 30 кв.м.</h3>
+                            <p class="works-description">В квартире были светлые стены и тёплые цвета. Мы
+                                сконцентрировались
+                                на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов
+                                Бали.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="works-gallery-item">
+                        <img src="img/kitchen.jpg" class="works-img" width="692px" height="451px" alt="Кухня">
+                        <div class="works-gallery-item-hover">
+                            <h3 class="works-title">Двухэтажная квартира 80 кв.м.</h3>
+                            <p class="works-description">Описание квартиры.</p>
+                        </div>
+                    </article>
+                    <article class="works-gallery-item">
+                        <img src="img/living_room.jpg" class="works-img" width="692px" height="451px" alt="Гостиная">
+                        <div class="works-gallery-item-hover">
+                            <h3 class="works-title">Квартира 55 кв.м.</h3>
+                            <p class="works-description">Описание квартиры.</p>
+                        </div>
+                    </article>
+                    <article class="works-gallery-item">
+                        <img src="img/bathroom.jpg" class="works-img" width="488px" height="451px" alt="Ванная">
+                        <div class="works-gallery-item-hover">
+                            <h3 class="works-title">Квартира 90 кв.м.</h3>
+                            <p class="works-description">Описание квартиры.</p>
+                        </div>
+                    </article>
+                </div>
+                <a class="look-for-more" href="#portfolio">Смотреть ещё<img src="img/arrow.svg" width="61px" height="16px"></a>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="container">
+                <h2 class="section-title">Команда</h2>
+                <ul class="team-list">
+                    <li class="team-list-item">
+                        <img src="img/masha.jpg" class="team-image" width="320px" height="253px"
+                            alt="Портрет дизайнера Маши">
+                        <p class="team-text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к
+                            вам домой,
+                            общается и помогает сделать вашу квартиру красивой и уютной.</p>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="img/sasha.jpg" class="team-image" width="320px" height="253px"
+                            alt="Портрет менеджера Саши">
+                        <p class="team-text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она
+                            проконсультирует вас, соберёт
+                            все документы и ответит на все вопросы.</p>
+                    </li>
+                    <li class="team-list-item">
+                        <img src="img/katya.jpg" class="team-image" width="320px" height="253px"
+                            alt="Портрет дизайнера Кати">
+                        <p class="team-text">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и
+                            точно знает,
+                            как обустроить дом так, чтобы вам понравилось.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="wide-container" id="process">
+                <h2 class="section-title">Как мы работаем</h2>
+                <ol class="process-list">
+                    <li class="process-list-item">
+                        <span>1</span>
+                        <p>Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</p>
+                    </li>
+                    <li class="process-list-item">
+                        <span>2</span>
+                        <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</p>
+                    </li>
+                    <li class="process-list-item">
+                        <span>3</span>
+                        <p>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</p>
+                    </li>
+                    <li class="process-list-item">
+                        <span>4</span>
+                        <p>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для
+                            мелочей.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews-slider">
+                    <div class="reviews-pagination">
+                        <button class="reviews-button reviews-button-prev" aria-label="Переключить на предыдущий отзыв">
+                            <img src="img/back_arrow.png">
+                        </button>
+                        <blockquote class="review-item">
+                            <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения
+                                своего
+                                дома.</p>
+                            <p>Работа шла быстро, было очень приятно общаться и взаимодествовать
+                                с сотрудниками. Не ожидала, что это будет так легко!</p>
+                            <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                            <cite class="review-author">Анна Беловская</cite>
+                        </blockquote>
+                        <div class="reviews-photos">
+                            <img src="img/living_room_for_review.jpg" alt="Светлая гостиная с современной мебелью">
+                            <img src="img/kitchen_for_review.jpg" alt="Кухня в стиле модерн с большим столом">
+                        </div>
+                        <button class="reviews-button reviews-button-next" aria-label="Переключить на следующий отзыв">
+                            <img src="img/forward_arrow.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-form" id="form">
+            <div class="wide-container">
+                <div class="form-container">
+                    <h2 class="section-title">Оставить заявку</h2>
+                    <p class="form-text">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на
+                        все вопросы.</p>
+                    <form class="request-order" action="#" method="post">
+                        <p>
+                            <input class="text-input" type="text" id="name" name="name" required>
+                            <label class="input-label" for="name">Ваше имя</label>
+                        </p>
+                        <p>
+                            <input class="text-input" type="tel" id="phone" name="phone" required>
+                            <label class="input-label" for="phone">Ваш телефон</label>
+                        </p>
+                        <button class="button submit-button" type="submit">Оставить заявку</button>
+                    </form>
+                </div>
+                <img src="img/map.jpg" width="590px" height="624px" alt="Карта проезда к Большой Конюшенной 19">
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="wide-container">
+            <a href="tel:+79818574624" class="info-1">+7&nbsp(981)&nbsp857-46-24</a>
+            <p class="info-2">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+            <p class="info-3">ИП Королёва А.А.</p>
         </div>
-        <div class="our-works-gallery-item">
-          <img src="img/living_room.jpg">
-          <div class="our-works-gallery-item-hover">
-            <h3>Квартира 55 кв.м.</h3>
-            <p>Описание квартиры.</p>
-          </div>
-        </div>
-        <div class="our-works-gallery-item">
-          <img src="img/bathroom.jpg">
-          <div class="our-works-gallery-item-hover">
-            <h3>Квартира 90 кв.м.</h3>
-            <p>Описание квартиры.</p>
-          </div>
-        </div>
-      </div>
-      <a class="look-for-more" href="#">Смотреть ещё<img src="img/arrow.svg"></a>
-    </section>
-
-    <section class="our-team">
-      <h2 class="our-team-title">Команда</h2>
-      <ul class="team-member">
-        <li class="team-member-item">
-          <img src="img/masha.jpg">
-          <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
-            и помогает сделать вашу квартиру красивой и уютной.</p>
-        </li>
-        <li class="team-member-item">
-          <img src="img/sasha.jpg">
-          <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
-            и ответит на все вопросы.</p>
-        </li>
-        <li class="team-member-item">
-          <img src="img/katya.jpg">
-          <p>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает,
-            как обустроить дом так, чтобы вам понравилось.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="how-we-work">
-      <h2>Как мы работаем</h2>
-      <ol class="how-we-work-list">
-        <li class="how-we-work-list-item">
-          Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.
-        </li>
-        <li class="how-we-work-list-item">
-          Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.
-        </li>
-        <li class="how-we-work-list-item">
-          Находим нужные магазины, помогаем с доставкой и оплатой товаров.
-        </li>
-        <li class="how-we-work-list-item">
-          Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей.
-        </li>
-      </ol>
-    </section>
-
-    <section class="reviews">
-      <button class="review-button">
-        <img src="img/back_arrow.png">
-      </button>
-      <blockquote class="review-item">
-        <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
-        <p>Работа шла быстро, было очень приятно общаться и взаимодествовать
-          с сотрудниками. Не ожидала, что это будет так легко!</p>
-        <p>Буду советовать и своим друзьям к вам обращаться!»</p>
-        <cite class="review-author">Анна Беловская</cite>
-      </blockquote>
-      <div class="review-photos">
-        <img src="img/living_room_for_review.jpg">
-        <img src="img/kitchen_for_review.jpg">
-      </div>
-      <button class="review-button">
-        <img src="img/forward_arrow.png">
-      </button>
-    </section>
-
-    <section class="form-for-order">
-      <form class="request-order">
-        <h2>Оставить заявку</h2>
-        <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-        <input type="text">
-        <input type="tel">
-        <button>Оставить заявку</button>
-      </form>
-      <img src="img/map.jpg">
-    </section>
-  </main>
-
-  <footer class="main-footer container">
-    <p class="main-footer-info">
-      <span>+7&nbsp(981)&nbsp857-46-24</span>
-      <span>г. Санкт-петербург, ул. Большая Конюшенная, 19</span>
-      <span>ИП Королёва А.А.</span>
-    </p>
-  </footer>
+    </footer>
 </body>
 
 </html>
