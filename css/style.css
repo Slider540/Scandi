@@ -47,23 +47,6 @@ ol {
   list-style: none;
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
-
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -89,17 +72,13 @@ ol {
   padding: 0;
 }
 
-.page-header {
-  width: 1200px;
+.page-header .wide-container {
+  display: flex;
+  align-items: center;
   height: 25px;
   margin: 36px auto 91px;
   font-size: 16px;
   line-height: 20px;
-}
-
-.page-header .wide-container {
-  display: flex;
-  align-items: center;
 }
 
 .site-logo {
@@ -214,10 +193,6 @@ nav {
 
 .works {
   margin-bottom: 65px;
-}
-
-.works .section-title {
-  /* text-align: left; */
 }
 
 .works-gallery {
