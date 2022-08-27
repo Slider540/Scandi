@@ -69,14 +69,11 @@ ol {
   padding: 0;
 }
 
-.page-header {
-  position: relative;
-}
-
-.header-background {
-  position: absolute;
-  z-index: -1;
-  left: calc(50% - 700px);
+.headline-background {
+  background-image: url('../img/header_background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: auto;
 }
 
 .page-header>.wide-container {
@@ -241,12 +238,12 @@ nav {
   text-align: center;
   color: #FFFFFF;
   padding: 86px 109px 19px;
-}  
+}
 
 .works-description {
   padding: 0 35px;
   color: #FFFFFF;
-}  
+}
 
 .look-for-more {
   display: flex;
