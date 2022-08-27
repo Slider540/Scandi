@@ -32,8 +32,9 @@ body {
   color: #533738;
   background-color: #EFE6E4;
   background-image: url(../img/header_background.jpg);
-  background-position: center top;
+  background-position: top center;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 a {
@@ -96,6 +97,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.site-nav-link:hover {
+  border-bottom: 1px solid #533738;
 }
 
 .tel-number {
@@ -191,8 +196,10 @@ nav {
   line-height: 62px;
 }
 
-.works {
-  margin-bottom: 65px;
+.works .wide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .works-gallery {
@@ -237,12 +244,18 @@ nav {
 
 .look-for-more {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  justify-content: center;
   gap: 10px;
-  align-items: center;
+  margin-bottom: 65px;
+}
+
+.look-for-more:hover {
+  border-bottom: 1px solid #533738;
+  margin-bottom: 64px;
 }
 
 .team {
