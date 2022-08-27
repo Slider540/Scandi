@@ -31,10 +31,6 @@ body {
   line-height: 30px;
   color: #533738;
   background-color: #EFE6E4;
-  background-image: url(../img/header_background.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: auto;
 }
 
 a {
@@ -73,11 +69,21 @@ ol {
   padding: 0;
 }
 
-.page-header .wide-container {
+.page-header {
+  position: relative;
+}
+
+.header-background {
+  position: absolute;
+  z-index: -1;
+  left: calc(50% - 700px);
+}
+
+.page-header>.wide-container {
   display: flex;
   align-items: center;
-  height: 25px;
-  margin: 36px auto 91px;
+  padding-top: 36px;
+  padding-bottom: 91px;
   font-size: 16px;
   line-height: 20px;
 }
