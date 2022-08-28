@@ -69,17 +69,19 @@ ol {
   padding: 0;
 }
 
-.headline-background {
+.page-header {
   background-image: url('../img/header_background.jpg');
   background-repeat: no-repeat;
-  background-position: center top;
-  overflow: auto;
+  background-size: cover;
+  background-position: center;
+  padding-top: 36px;
+  padding-bottom: 168px;
+  margin-bottom: 65px;
 }
 
-.page-header>.wide-container {
+.page-header .wide-container {
   display: flex;
   align-items: center;
-  padding-top: 36px;
   padding-bottom: 91px;
   font-size: 16px;
   line-height: 20px;
@@ -102,8 +104,13 @@ nav {
   align-items: center;
 }
 
-.site-nav-link:hover {
+.site-nav-link:hover,
+.site-nav-link:focus {
   border-bottom: 1px solid #533738;
+}
+
+.site-nav-link:active {
+  opacity: 0.7;
 }
 
 .tel-number {
@@ -114,7 +121,6 @@ nav {
 
 .headline-text {
   width: 534px;
-  margin-bottom: 233px;
 }
 
 .headline-title {
@@ -256,9 +262,14 @@ nav {
   margin-bottom: 65px;
 }
 
-.look-for-more:hover {
+.look-for-more:hover,
+.look-for-more:focus {
   border-bottom: 1px solid #533738;
   margin-bottom: 64px;
+}
+
+.look-for-more:active {
+  opacity: 0.7;
 }
 
 .team {
