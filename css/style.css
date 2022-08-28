@@ -359,7 +359,7 @@ nav {
   flex-grow: 1;
 }
 
-.order-form>.wide-container {
+.order-form .wide-container {
   display: flex;
   gap: 20px;
 }
@@ -368,7 +368,7 @@ nav {
   margin-left: 82px;
 }
 
-.form-container>.section-title {
+.form-container .section-title {
   margin-top: 50px;
   margin-bottom: 24px;
   color: #FFFFFF;
@@ -404,9 +404,10 @@ nav {
   margin-top: 31px;
   padding: 0;
   border: 0;
+  cursor: pointer;
 }
 
-.page-footer>.wide-container {
+.page-footer .wide-container {
   display: flex;
   padding-top: 37px;
   padding-bottom: 37px;
