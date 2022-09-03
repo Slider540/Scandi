@@ -39,6 +39,8 @@ a {
   color: #533738;
 }
 
+
+
 ul,
 ol {
   list-style: none;
@@ -366,17 +368,16 @@ nav {
 
 .form-container {
   margin-left: 82px;
+  color: #FFFFFF;
 }
 
 .form-container .section-title {
   margin-top: 50px;
   margin-bottom: 24px;
-  color: #FFFFFF;
   text-align: left;
 }
 
 .form-text {
-  color: #FFFFFF;
   opacity: 0.6;
   margin-bottom: 44px;
 }
@@ -391,9 +392,22 @@ nav {
   color: #F6EDE9;
 }
 
-.text-input::placeholder {
+.request-order p {
+  position: relative;
   color: #F6EDE9;
-  ;
+}
+
+.input-label {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  transition: .2s ease-in
+}
+
+.text-input:focus+.input-label,
+.text-input:valid:not(:placeholder-shown)+.input-label {
+    bottom: 30px;
+    transition: .2s ease-in
 }
 
 .request-order p:first-child {
