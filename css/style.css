@@ -406,8 +406,8 @@ nav {
 
 .text-input:focus+.input-label,
 .text-input:valid:not(:placeholder-shown)+.input-label {
-    bottom: 30px;
-    transition: .2s ease-in
+  bottom: 30px;
+  transition: .2s ease-in
 }
 
 .request-order p:first-child {
